@@ -30,3 +30,4 @@ ul{display:flex; list-style:none; text-decoration:none; color: antiquewhite; fon
                                 /* logo */
 
 .logo{padding-left:30%; font-family: cursive; text-decoration:overline rgb(255, 255, 255) 2px;}
+.about{text-decoration:line-through;}
