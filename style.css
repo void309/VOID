@@ -2,7 +2,7 @@
 
                       /* NAVBAR style */
 
-body{background-image:url(/images/bg.jpg);  background-repeat:no-repeat; background-attachment:fixed; background-size:auto; overflow: scroll;}
+body{background-image:url(./images/bg.jpg);  background-repeat:no-repeat; background-attachment:fixed; background-size:auto; overflow: scroll;}
 a{text-decoration:none; list-style:none; color: antiquewhite;}
 a:hover{color: rgb(0, 0, 0); font-family: 'Courier New', Courier, monospace; text-decoration:underline rgb(117, 96, 173) 2px;}
 nav{background-color: rgba(137, 190, 226, 0.521); height:auto; width: auto; text-align: center; overflow:auto;}
