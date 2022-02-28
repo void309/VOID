@@ -7,7 +7,7 @@ a{text-decoration:none; list-style:none; color: antiquewhite;}
 a:hover{color: rgb(0, 0, 0); font-family: 'Courier New', Courier, monospace; text-decoration:underline rgb(117, 96, 173) 2px;}
 nav{background-color: rgba(137, 190, 226, 0.521); height:auto; width: auto; text-align: center; overflow:auto;}
 ol:hover{color: rgb(0, 0, 0); font-family: 'Courier New', Courier, monospace; text-decoration:underline;}
-ul{display:flex; list-style:none; text-decoration:none; color: antiquewhite; font-size:2rem; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; width: auto; height: auto;}
+ul{display:flex; list-style:none; text-decoration:none; color: antiquewhite; font-size:auto; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; width: auto; height: auto;}
 
 
                      /* TEXT ANIMATION  */
