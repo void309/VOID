@@ -55,4 +55,4 @@ span:hover{text-transform: capitalize;}
 .ppr2{display: flexbox; background-color: rgba(253, 253, 253, 0.74); overflow: auto; box-shadow: rgb(173, 170, 170, 0.596) 13px 13px 13px ; height:fit-content; width: 55%; position: absolute; right:.100%; clear: both; display: flexbox;} 
 
                   /* FOOTER*/
-footer{text-align:center; color:white;}
+footer{text-align:center; color:white; padding-top:100%;}
