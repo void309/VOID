@@ -1,61 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<title>Void</title>
+				<link rel="stylesheet" href="style.css">
+	
+								<script>
+												<!-- nav alert
+ -->
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
-<html>
-    <head>
-        <meta charset="utf-8">
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
 
-        <title>Void</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link rel="stylesheet" href="style.css">
-
-
-    </head>
-    <body>
-
-<div class="nav">
-  <nav height="auto" width="auto">
-      <ul>  
-          <ol><a href="#">HOME</a></ol>
-          <ol><a href="https://hackerone.com/void309?type=user">Hacker1 </a></ol>
-          <ol><a href="https://www.instagram.com/void.309/">Instagram</a></ol>
-          <ol><a href="https://discord.gg/tWpVquJsHJ ">Discord</a></ol>
-          <ol><a href="https://www.github.com/void309">Github</a></ol>
-         <li class="logo">VOID</li>
-      </ul>
+       <!-- btn alert -->
+       function ig() {
+       window.alert('This service is currently unavailable .');
+       }
       
-       </nav>
-</div>
+</script>
+     
+</head>
+<body>
+				 <div class="area" >
+				 		
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+            
+           <div class="context">
+           				
+      
+    
 
-<br><br>
-
-
-<div class="typewriter">
-   <h1>Welcome Dreamer </h1>
-</div>
-
-<br>
-<br><br>
-<div class="ppr">
-
-    <img src="https://shorturl.at/rxKM7" alt="image">
-    <span>Greeting Dreame ; <br><br>
-        A quick intro to who am i , You can call me void  i am a Pentester , Student , Web Developer and Gamer .
-</span>
-
-   </div>
-
-   <br>
-   <br>
-   <br>
+        <img class="logo" src="https://th.bing.com/th/id/R.e95f963fe5fdd21487f0b17e032f1e12?rik=KP9TfGG2uK4ojg&pid=ImgRaw&r=0"alt="img">
+           
+    
+    <br><br><br>
+   <button class="btn" onclick="openNav()">Join me </button>
+    
+    </div>
+    </div>
    
-<div class="ppr2">
+   
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="https://www.github.com/void309">Github</a>
+    <a href="https://discord.gg/tWpVquJsHJ">Discord</a>
+    <a href="#" onclick="ig();">Instagram</a>
+    <a href="https://tryhackme.com/p/Anoopsharma333">Tryhackme</a>
+  </div>
+</div>
 
-    <img src="https://i.pinimg.com/originals/df/f9/a7/dff9a76ba333b117acf0695d13158b20.gif" alt="image">
-    <span>Today the world is not a safe place No one is concerned with your privacy . <br> Prepare yourself for the cyberwar of future  you can always feel free to contact me on case you need me .</span>
 
-   </div>
-        
-       
+</body>
 </html>
